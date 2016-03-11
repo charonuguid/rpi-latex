@@ -1,4 +1,4 @@
-FROM hypriot/rpi-alpine-scratch
+FROM resin/rpi-raspbian
 MAINTAINER Charo Nuguid <me@thegeekettespeaketh.com>
 
 RUN apt-get update && apt-get install -y \
